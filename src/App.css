@@ -1,13 +1,32 @@
+body {
+  background: url("./Assets/Apod_back.jpg");
+  font-family: 'Scheherazade New', serif;
+  font-size: 20px;
+}
+/* navbar */
 .navbar {
-  background: #117c78;
+  background: #2439688c;
   position: sticky;
-  top:0;
+  top: 0;
+}
+.scroll{
+  background: #342f61 !important;
 }
 .nav-link {
   color: #ffffff !important;
 }
 .nav-link:hover {
-  color:rgb(0, 0, 0) !important ;
-  background:#ffffff;
+  color: rgb(255, 255, 255) !important ;
+  background: #352a939e;
   transition: all 0.5s ease-in-out;
+}
+
+/* APOD container */
+.apod-desc{
+  font-weight: 500;
+}
+@media screen and (max-width:400px) {
+  .iframe{
+    width:100%;
+  }
 }

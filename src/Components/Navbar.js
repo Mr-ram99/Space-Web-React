@@ -2,9 +2,9 @@ import React from 'react'
 import logo from '../Assets/logo.png'
 const Navbar = () => {
     return (
-    <nav className="navbar navbar-expand-lg navbar-light text-info">
+    <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar">
             <div className="container-fluid">
-                <a className="navbar-brand h6 mx-2" href="/"><img className="mx-auto d-block" src={logo} alt="Brand"/></a>
+                <a className="navbar-brand h6 mx-2 text-light" href="/"><img className="mx-auto d-block" src={logo} alt="Brand"/><strong>Space</strong></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
