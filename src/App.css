@@ -1,15 +1,18 @@
 body {
   background: url("./Assets/Apod_back.jpg");
-  font-family: 'Scheherazade New', serif;
+  background-attachment: fixed;
+  font-family: "Scheherazade New", serif;
   font-size: 20px;
+  color: #ffffff;
 }
 /* navbar */
 .navbar {
   background: #2439688c;
+  z-index: 99;
   position: sticky;
   top: 0;
 }
-.scroll{
+.scroll {
   background: #342f61 !important;
 }
 .nav-link {
@@ -22,11 +25,44 @@ body {
 }
 
 /* APOD container */
-.apod-desc{
+.apod-desc {
   font-weight: 500;
 }
-@media screen and (max-width:400px) {
-  .iframe{
-    width:100%;
+@media screen and (max-width: 400px) {
+  .iframe {
+    width: 100%;
   }
 }
+/* rover image  hover effect*/
+.rover-image-box {
+  position: relative;
+}
+
+.rover-image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 100%;
+}
+
+.rover-image-info {
+  width: 80%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.rover-image-box:hover .rover-image {
+  opacity: 0.4;
+}
+
+.rover-image-box:hover .rover-image-info {
+  opacity: 1;
+  left: 50%;
+}
+
