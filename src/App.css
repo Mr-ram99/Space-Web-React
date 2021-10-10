@@ -5,6 +5,14 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+input:focus{
+  outline: none;
+}
+.highlight{
+  font-style: italic;
+  font-weight: 700;
+  color: rgb(253, 253, 0);
+}
 /* navbar */
 .navbar {
   background: #2439688c;
@@ -32,5 +40,24 @@ body {
   .iframe {
     width: 100%;
   }
+}
+
+/* Person in space div */
+.PISdiv{
+  margin: 5%;
+  padding: 1%;
+  background:linear-gradient(#adadad1a,#4e4d4dad);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  box-shadow: 2px 2px 5px #342f61;
+}
+.PISdiv h2{
+  color: #3fd3ff;
+  font-weight: 500;
+}
+/* iss data */
+.issdata{
+  font-size: 24px;
 }
 

@@ -13,6 +13,7 @@ const APOD = (props) => {
     },[]);
     return (
         <>
+        <h1 className="text-center m-auto text-light">Astronomical Picture of the Day</h1>
            <div className="container-fluid apod-container text-light row m-0 py-4">
                 <div className="apod-desc col-sm-6 my-auto">
                     <p>

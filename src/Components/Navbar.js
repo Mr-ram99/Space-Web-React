@@ -17,10 +17,10 @@ const Navbar = () => {
                             <a className="nav-link px-3 mx-2 py-1" href="/">Nasa Missions</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link px-3 mx-2 py-1" href="/">Planets</a>
+                            <a className="nav-link px-3 mx-2 py-1" href="/">NASA Image and Video Library</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link px-3 mx-2 py-1" href="/">Gallary</a>
+                            <a className="nav-link px-3 mx-2 py-1" href="/">######</a>
                         </li>
                     </ul>
                 </div>
